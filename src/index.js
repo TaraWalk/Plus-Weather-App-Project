@@ -60,16 +60,16 @@ function displayForecast() {
     forecastHtml =
       forecastHtml +
       `
-       <div class="weather-forecast">
-   <div class="weather-forecast-day">
-              <div class="weather-forecast-date">${day}</div>
-              <br />
-              <div class="weather-forecast-icon">☼</div>
-              <div class="weather-forecast-temperature">
-                <br />
-                <div class="weather-forecast-temperature-maxi"> 18°</div>
-                <div class="weather-forecast-temperature-min"> 12°</div>
+      <div class="weather-forecast-day">
+        <div class="weather-forecast-date">${day}</div>
+        <br />
+        <div class="weather-forecast-icon">☼</div>
+        <div class="weather-forecast-temperature">
+          <br />
+          <div class="weather-forecast-temperature-maxi"> 18°</div>
+          <div class="weather-forecast-temperature-min"> 12°</div>
         </div>
+      </div>
 `;
   });
 
